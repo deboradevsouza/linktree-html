@@ -1,0 +1,95 @@
+:root {
+    --cor-bg: #fff;
+    --cor-secundaria: #FA8999;
+    --cor-terciaria: #D67F65;
+}
+
+body {
+    margin: 90px 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    background-size: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('./assets/fundo-linktree.PNG');
+    background-repeat: no-repeat;
+}
+
+#header {
+    display: flex;
+    text-align: center;
+    color: var(--cor-secundaria);
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.foto_perfil {
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    display: flex;
+    margin: auto;
+    width: 96px;
+    height: 96px;
+    background-image: url('../../assets/WhatsApp\ Image\ 2025-03-01\ at\ 18.33.37.jpeg');
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.deboradevsouza {
+    max-width: 300px;
+    max-height: 150px;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    color: var(--cor-bg);
+    background-color: var(--cor-secundaria);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 12px;
+    font-weight: 400;
+    font-size: 1.2em;
+    padding: 18px;
+    position: relative;
+    width: 190px;
+    margin: 15px;
+    transition: 0.3s ease-in;
+}
+
+a:hover {
+    transform: scale(1.04);
+    background-color: var(--cor-terciaria);
+}
+
+.conteudo_links {
+    max-width: 800px;
+    margin: auto;
+}
+
+
+
+#role {
+    font-size: 18px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+    margin: auto;
+    border-radius: 12px;
+    color: var(--cor-secundaria);
+}

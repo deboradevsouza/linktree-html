@@ -1,1 +1,1 @@
-document.getElementById("role").innerHTML = "Desenvolvedora Frontend";
+document.getElementById("role").innerHTML = "Software Developer Intern";
